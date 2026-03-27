@@ -25,8 +25,6 @@ The goal is to evaluate whether fine-tuning can improve factual correctness and 
 ```
 ├── LLama_Mtg_model_baseline.ipynb     # Baseline model evaluation
 ├── LLama_MtgModel_fine_tuning.ipynb   # Fine-tuning pipeline
-├── data/                              # Dataset (QA pairs)
-├── results/                           # Evaluation outputs
 ├── thesis.pdf                         # Final thesis document
 └── README.md
 ```
@@ -110,50 +108,17 @@ This aligns with broader concerns in LLM evaluation:
 
 ---
 
-## 🛠️ Setup Instructions
-
-### Requirements
-- Python 3.10+
-- PyTorch
-- Transformers
-- PEFT (for LoRA)
-
-### Installation
-```bash
-git clone <your-repo-url>
-cd repo
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-
-Run baseline:
-```bash
-jupyter notebook LLama_Mtg_model_baseline.ipynb
-```
-
-Run fine-tuning:
-```bash
-jupyter notebook LLama_MtgModel_fine_tuning.ipynb
-```
-
----
-
 ## 📜 License
 This project is for academic purposes.
 
 ---
 
-## 👤 Author
-**Marco Giuseppe De Pinto**
-
-Master’s Degree in Artificial Intelligence / Generative AI
-
----
-
-## 🙏 Acknowledgments
-- HuggingFace
-- Meta AI (LLaMA)
-- Wizards of the Coast (MTG rules dataset inspiration)
+## Cite this work
+@mastersthesis{depinto2026mtgllm,
+  author       = {Marco Giuseppe De Pinto},
+  title        = {Specialization of Large Language Models for Magic: The Gathering Rules Question Answering},
+  school       = {University of Bari},
+  year         = {2026},
+  type         = {Master's Thesis},
+  note         = {Project on domain adaptation and evaluation of LLMs in rule-based environments}
+}
