@@ -114,11 +114,13 @@ This project is for academic purposes.
 ---
 
 ## Cite this work
-'''@mastersthesis{depinto2026mtgllm,
+```
+@mastersthesis{depinto2026mtgllm,
   author       = {Marco Giuseppe De Pinto},
   title        = {Specialization of Large Language Models for Magic: The Gathering Rules Question Answering},
   school       = {University of Bari},
   year         = {2026},
   type         = {Master's Thesis},
   note         = {Project on domain adaptation and evaluation of LLMs in rule-based environments}
-}'''
+}
+```
